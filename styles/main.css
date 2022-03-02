@@ -1,15 +1,30 @@
 /*header*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
 .menu {
   color: #4a4a4a;
   background-color: white;
   font-family: 'Rubik', sans-serif;
-  text-decoration: none;
-  list-style: none;
+  /*text-decoration: none;
+  list-style: none;*/
   padding: 10px 0 13px 0;
   display: flex;
+  justify-content: center;
+  font-size: 15px;
 }
 .texto_prin {
   background-color: #3cdbc0;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-size: 35px;
+  align-items: center;
 }
 
 .icono {
