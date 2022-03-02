@@ -7,15 +7,20 @@
 
 .menu {
   color: #4a4a4a;
-  background-color: white;
   font-family: 'Rubik', sans-serif;
-  /*text-decoration: none;
-  list-style: none;*/
+  list-style: none;
   padding: 10px 0 13px 0;
   display: flex;
   justify-content: center;
-  font-size: 15px;
+  flex-direction: row;
+  font-size: 16px;
 }
+/*font-family: 'Rubik', sans-serif;
+  padding: 10px 0 13px 0;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;*/
+
 .texto_prin {
   background-color: #3cdbc0;
   color: #ffffff;
@@ -23,12 +28,29 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  font-size: 35px;
   align-items: center;
+  font-size: 30px;
+  flex-flow: wrap;
 }
 
 .icono {
   display: flex;
   justify-content: center;
   padding: 10px 0 10px 0;
+}
+
+@media all and (min-width: 768px) {
+  
+.icono {
+display: flex;
+justify-content: start;
+padding: 20px 0 20px 30px;
+ }
+  
+.menu
+  font-size: 16px;
+  padding: 0 30px 0 0;
+
+  .texto_prin
+  font-size: 40px;
 }
