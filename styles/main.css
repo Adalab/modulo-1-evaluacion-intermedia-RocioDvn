@@ -31,7 +31,8 @@
   align-items: center;
   font-size: 30px;
   flex-flow: wrap;
-}
+  font-weight: 500;
+ }
 
 .icono {
   display: flex;
